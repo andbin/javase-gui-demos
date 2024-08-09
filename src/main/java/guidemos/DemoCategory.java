@@ -6,6 +6,7 @@
 package guidemos;
 
 public enum DemoCategory {
+    CURSORS("Cursors"),
     ;
 
     private final String name;

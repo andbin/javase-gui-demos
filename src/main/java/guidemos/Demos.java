@@ -5,8 +5,11 @@
 
 package guidemos;
 
+import static guidemos.DemoCategory.CURSORS;
+
 public class Demos {
     public static final Demo[] array = {
+            new Demo(CURSORS, guidemos.cursors.predefined.PredefinedCursorsDemo.class),
     };
 
     private Demos() {}
